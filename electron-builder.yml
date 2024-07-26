@@ -13,6 +13,7 @@ asarUnpack:
   - resources/**
 win:
   executableName: project-s-remote
+  forceCodeSigning: false
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
